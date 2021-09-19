@@ -53,3 +53,8 @@ window.onbeforeunload = () => {
   const string = JSON.stringify(hashMap)
   localStorage.setItem('x', string)
 }
+
+$(function(){
+//设置背景图片高度
+  ("#Background").height(("#Background").height());
+})
